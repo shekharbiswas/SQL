@@ -6,6 +6,8 @@
 - Data modelling dbt
 - Snowflake 
 - PowerBI + SQL
+
+
 idea is start with a story make it complex until 3 weeks and then stus do power bi + project
 
 also same story continues for dbt and snowflake including data warehouse design concepts.
