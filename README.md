@@ -19,7 +19,7 @@ also same story continues for dbt and snowflake including data warehouse design 
 
 Welcome! This course helps you build strong SQL skills and introduces modern tools like DBT and Snowflake — without overwhelming you. It's designed to be hands-on, practical, and career-relevant.
 
----
+<br>
 
 ## ✅ Week 1: SQL Foundations – Read & Query
 
@@ -38,7 +38,8 @@ Welcome! This course helps you build strong SQL skills and introduces modern too
 ### Mini-task:
 > Find the top 3 cities with the highest number of orders.
 
----
+<br>
+
 
 ## ✅ Week 2: Joins, Aggregates & Grouping
 
@@ -57,7 +58,7 @@ Welcome! This course helps you build strong SQL skills and introduces modern too
 ### Mini-project:
 > Monthly sales report by region using JOIN + GROUP BY.
 
----
+<br>
 
 ## ✅ Week 3: Subqueries, CTEs & Data Cleaning
 
@@ -72,7 +73,7 @@ Welcome! This course helps you build strong SQL skills and introduces modern too
 ### Mini-project:
 > Identify inactive customers with low sales and high return rates.
 
----
+<br>
 
 ## ✅ Week 4: Power BI + SQL Mini-Project (Light Week)
 
@@ -96,7 +97,7 @@ Welcome! This course helps you build strong SQL skills and introduces modern too
 
 > **Total time:** ~8 hours max
 
----
+<br>
 
 ## ✅ Week 5: DBT & Data Warehousing Basics
 
@@ -113,7 +114,7 @@ Welcome! This course helps you build strong SQL skills and introduces modern too
 - Hands-on with DBT Cloud (optional)
 - Build one staging + one transformation model
 
----
+<br>
 
 ## ✅ Week 6: Final Capstone Project + Career Wrap-Up
 
