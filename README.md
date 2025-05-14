@@ -3,7 +3,7 @@
 At **Dataskools**, we believe that data skills are the foundation of every future-proof career.  
 This 6-week learning path is designed for **analysts, career switchers, and business professionals** who want to become job-ready with SQL — and go beyond.
 
-Using one powerful fictional company (**TrendHive**), you’ll progressively master:
+Using one powerful company (**TrendHive**), you’ll progressively master:
 - 📄 SQL (Foundations to Advanced)
 - 🧠 Analytics + Business Thinking
 - 🔗 Data Modeling with DBT
