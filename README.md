@@ -14,6 +14,13 @@ And the best part? You don’t just learn — you **build**, every week. 🚀
 
 <br>
 
+![image](https://github.com/user-attachments/assets/29ea16f0-d053-418c-aa36-856750f236fe)
+
+<br>
+
+
+
+
 ## 🧠 Week 1: SQL Foundations – Read & Query
 
 <details>
