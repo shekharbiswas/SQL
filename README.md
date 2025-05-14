@@ -21,6 +21,17 @@ And the best part? You don’t just learn — you **build**, every week. 🚀
 <br>
 
 
+## 🛍️ Meet Your Case Study: TrendHive
+
+**TrendHive** is a fast-growing, trend-focused eCommerce brand. From solar-powered gear to sustainable lifestyle products, they sell what’s buzzing online.
+
+They rely on data — not gut feeling — to make decisions about:
+
+- 🔎 What products to feature
+- 📈 How to track customer trends
+- 🚚 Where to focus logistics and marketing
+
+You’ve joined the BI team at TrendHive. Your job over the next 6 weeks is to uncover actionable insights using SQL, DBT, and Power BI — and help TrendHive grow smarter with data.
 
 
 ## 🧠 Week 1: SQL Foundations – Read & Query
