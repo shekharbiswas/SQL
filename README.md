@@ -1,3 +1,69 @@
+# 🛍️ Welcome to TrendHive
+
+**TrendHive** is a fast-growing eCommerce startup known for its edgy, trend-focused product lineup. From wearable tech and minimalist home gadgets to sustainable fashion and even solar-powered accessories — if it’s buzzing online, it’s probably already on TrendHive.
+
+---
+
+## 🎯 Mission
+
+> *"Shop what’s trending. Analyze what matters."*
+
+TrendHive isn’t just about selling — it’s about staying ahead of the curve. The company prides itself on using data to make smart product, marketing, and logistics decisions in real time.
+
+---
+
+## 🧩 Your Role: Junior Data Analyst (Intern)
+
+You’ve just joined TrendHive's Business Intelligence (BI) team as a **Junior Data Analyst Intern**. Your task? Help the team make data-informed decisions using customer, order, and product data stored in SQL databases.
+
+---
+
+## 🧠 Your First Challenge
+
+> “We need to understand who’s buying what, from where, and how often — can you help?”
+
+The BI team is swamped and needs you to explore raw data to uncover insights. You’ll be querying three key tables:
+
+- `customers`: Who they are and where they live  
+- `orders`: What they bought, when, and how much  
+- `products`: What’s selling and at what price  
+
+---
+
+## 📦 TrendHive Product Categories
+
+TrendHive sells products in categories like:
+
+- Lifestyle Tech (smartwatches, trackers)
+- Home Aesthetics (LED mirrors, ambient lighting)
+- Wearable Solar Gear (solar bags, phone chargers)
+- Sustainable Fashion (recycled fabric basics)
+- Limited-Run Trend Drops (influencer collabs)
+
+---
+
+## 💬 Company Culture
+
+TrendHive is remote-first, data-obsessed, and fast-paced. Decisions are made quickly — and data speaks louder than opinions.
+
+---
+
+## 🚀 Your Growth Path
+
+By the end of your internship, you should be able to:
+
+- Write clean, purposeful SQL queries  
+- Summarize insights for marketing and product teams  
+- Build simple dashboards or reports using query results  
+- Think like a data professional — not just a learner
+
+---
+
+Let’s dive in and help TrendHive thrive — one query at a time. 🔍
+
+
+
+
 # SQL
 
 6 weeks 
