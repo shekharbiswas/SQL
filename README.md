@@ -33,6 +33,7 @@ They rely on data — not gut feeling — to make decisions about:
 
 You’ve joined the BI team at TrendHive. Your job over the next 6 weeks is to uncover actionable insights using SQL, DBT, and Power BI — and help TrendHive grow smarter with data.
 
+<br>
 
 ## 🧠 Week 1: SQL Foundations – Read & Query
 
