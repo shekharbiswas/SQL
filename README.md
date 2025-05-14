@@ -68,6 +68,11 @@ Let’s dive in and help TrendHive thrive — one query at a time. 🔍
 
 6 weeks 
 
+idea: run amazon scripts again, get link and products so that stus see its authetic, sales data manipulate.
+and sell the web scraping strategy for extra adv module maybe
+
+
+
 - SQL
 - Data modelling dbt
 - Snowflake 
