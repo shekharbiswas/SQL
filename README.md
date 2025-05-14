@@ -1,4 +1,4 @@
-# 📊 Welcome to Your SQL & Modern Data Tools Learning Track
+# 📊 SQL & Modern Data Tools
 
 At **Dataskools**, we believe that data skills are the foundation of every future-proof career.  
 This 6-week learning path is designed for **analysts, career switchers, and business professionals** who want to become job-ready with SQL — and go beyond.
