@@ -1,66 +1,206 @@
-# 🛍️ Welcome to TrendHive
+# 📊 Welcome to Your SQL & Modern Data Tools Learning Track
 
-**TrendHive** is a fast-growing eCommerce startup known for its edgy, trend-focused product lineup. From wearable tech and minimalist home gadgets to sustainable fashion and even solar-powered accessories — if it’s buzzing online, it’s probably already on TrendHive.
+At **Dataskools**, we believe that data skills are the foundation of every future-proof career.  
+This 6-week learning path is designed for **analysts, career switchers, and business professionals** who want to become job-ready with SQL — and go beyond.
 
----
+Using one powerful fictional company (**TrendHive**), you’ll progressively master:
+- 📄 SQL (Foundations to Advanced)
+- 🧠 Analytics + Business Thinking
+- 🔗 Data Modeling with DBT
+- ❄️ Cloud Data Warehousing with Snowflake
+- 📊 Power BI for Interactive Dashboards
 
-## 🎯 Mission
+And the best part? You don’t just learn — you **build**, every week. 🚀
 
-> *"Shop what’s trending. Analyze what matters."*
+<br>
 
-TrendHive isn’t just about selling — it’s about staying ahead of the curve. The company prides itself on using data to make smart product, marketing, and logistics decisions in real time.
+## 🧠 Week 1: SQL Foundations – Read & Query
 
----
+<details>
+<summary>🔍 This Week, You’ll Explore</summary>
 
-## 🧩 Your Role: Junior Data Analyst (Intern)
+<br>
 
-You’ve just joined TrendHive's Business Intelligence (BI) team as a **Junior Data Analyst Intern**. Your task? Help the team make data-informed decisions using customer, order, and product data stored in SQL databases.
+- What is SQL? What is a relational database?  
+- SELECT, FROM, WHERE, ORDER BY, LIMIT  
+- Filtering text, numbers, and dates  
+- Running queries in a SQL sandbox (TrendHive orders dataset)  
+- Day-wise files on each concept — perfect for absolute beginners  
 
----
+</details>
 
-## 🧠 Your First Challenge
+<br>
 
-> “We need to understand who’s buying what, from where, and how often — can you help?”
+<details>
+<summary>📌 By the End of This Week, You Will:</summary>
 
-The BI team is swamped and needs you to explore raw data to uncover insights. You’ll be querying three key tables:
+<br>
 
-- `customers`: Who they are and where they live  
-- `orders`: What they bought, when, and how much  
-- `products`: What’s selling and at what price  
+- ✅ Write basic SQL queries  
+- ✅ Filter and sort data for insights  
+- ✅ Use logical operators to find business answers  
+- ✅ Create your first TrendHive mini-report: *Top Cities by Orders*
 
----
+</details>
 
-## 📦 TrendHive Product Categories
+<br>
 
-TrendHive sells products in categories like:
+## 🔗 Week 2: Joins, Aggregates & Subqueries
 
-- Lifestyle Tech (smartwatches, trackers)
-- Home Aesthetics (LED mirrors, ambient lighting)
-- Wearable Solar Gear (solar bags, phone chargers)
-- Sustainable Fashion (recycled fabric basics)
-- Limited-Run Trend Drops (influencer collabs)
+<details>
+<summary>🔄 This Week, You’ll Explore</summary>
 
----
+<br>
 
-## 💬 Company Culture
+- INNER JOIN, LEFT JOIN, RIGHT JOIN  
+- GROUP BY, COUNT, SUM, AVG, HAVING  
+- Subqueries for filtering and calculations  
+- NULL handling, IS NULL, COALESCE  
+- Data storytelling with joins: *Who are our top customers?*
 
-TrendHive is remote-first, data-obsessed, and fast-paced. Decisions are made quickly — and data speaks louder than opinions.
+</details>
 
----
+<br>
 
-## 🚀 Your Growth Path
+<details>
+<summary>📌 By the End of This Week, You Will:</summary>
 
-By the end of your internship, you should be able to:
+<br>
 
-- Write clean, purposeful SQL queries  
-- Summarize insights for marketing and product teams  
-- Build simple dashboards or reports using query results  
-- Think like a data professional — not just a learner
+- ✅ Combine multiple tables to get richer insights  
+- ✅ Summarize data with GROUP BY  
+- ✅ Handle missing values like a pro  
+- ✅ Build a revenue leaderboard for TrendHive products
 
----
+</details>
 
-Let’s dive in and help TrendHive thrive — one query at a time. 🔍
+<br>
 
+## 🛠️ Week 3: Advanced SQL + Optimization
+
+<details>
+<summary>📈 This Week, You’ll Explore</summary>
+
+<br>
+
+- Window Functions: RANK, ROW_NUMBER, LAG, LEAD  
+- CASE statements for custom logic  
+- Common Table Expressions (CTEs)  
+- Performance tips for large queries  
+- TrendHive use case: customer retention, product cohorts
+
+</details>
+
+<br>
+
+<details>
+<summary>📌 By the End of This Week, You Will:</summary>
+
+<br>
+
+- ✅ Use advanced SQL techniques with confidence  
+- ✅ Write layered, readable SQL using CTEs  
+- ✅ Answer real business questions using window functions  
+- ✅ Build a customer behavior dashboard in SQL
+
+</details>
+
+<br>
+
+## 📊 Week 4: Mini Project – SQL + Power BI
+
+<details>
+<summary>📊 This Week, You’ll Explore</summary>
+
+<br>
+
+- Review all SQL concepts through a business project  
+- Connect Power BI to your SQL queries  
+- Build dashboards with filters, visuals, and narratives  
+- Present KPI insights: revenue, top products, customer segments  
+- Keep it light: ~6–8 hours total
+
+</details>
+
+<br>
+
+<details>
+<summary>📌 By the End of This Week, You Will:</summary>
+
+<br>
+
+- ✅ Complete a mini-project with SQL + Power BI  
+- ✅ Visualize insights for non-technical audiences  
+- ✅ Understand how SQL powers real dashboards  
+- ✅ Share your report with the TrendHive BI team
+
+</details>
+
+<br>
+
+## 🧱 Week 5: DBT & Data Modeling
+
+<details>
+<summary>📦 This Week, You’ll Explore</summary>
+
+<br>
+
+- What is DBT? Why it matters for modern data teams  
+- Building your first DBT models  
+- Sources, staging, marts — modular SQL  
+- Jinja templating, testing, and documentation  
+- Project: Refactor your TrendHive queries into DBT
+
+</details>
+
+<br>
+
+<details>
+<summary>📌 By the End of This Week, You Will:</summary>
+
+<br>
+
+- ✅ Understand how modern ELT works  
+- ✅ Write maintainable SQL using DBT  
+- ✅ Add tests and documentation to models  
+- ✅ Prepare your TrendHive warehouse for scaling
+
+</details>
+
+<br>
+
+## ❄️ Week 6: Snowflake, Data Pipelines & Final Dashboard
+
+<details>
+<summary>☁️ This Week, You’ll Explore</summary>
+
+<br>
+
+- What is Snowflake? Key features and benefits  
+- Connecting Snowflake to DBT  
+- Querying external data and building pipelines  
+- Connecting Snowflake to Power BI  
+- Final Project: TrendHive Executive Dashboard
+
+</details>
+
+<br>
+
+<details>
+<summary>📌 By the End of This Week, You Will:</summary>
+
+<br>
+
+- ✅ Use Snowflake as a cloud data warehouse  
+- ✅ Combine DBT + Power BI in a modern stack  
+- ✅ Automate refreshes and monitor pipelines  
+- ✅ Present your final TrendHive BI project confidently
+
+</details>
+
+<br>
+
+> 🚀 **Your mission:** Go from SQL learner to modern data pro — ready for jobs, projects, and cloud-native tools.
 
 
 
