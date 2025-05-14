@@ -15,7 +15,7 @@ And the best part? You don’t just learn — you **build**, every week. 🚀
 <br>
 
 <p align="center">
-  <img width="200" alt="image" src="https://github.com/user-attachments/assets/29ea16f0-d053-418c-aa36-856750f236fe" />
+  <img width="400" alt="image" src="https://github.com/user-attachments/assets/29ea16f0-d053-418c-aa36-856750f236fe" />
 </p>
 
 <br>
