@@ -8,15 +8,10 @@ Instead of starting with SQL theory, we start with a **problem**:
 
 Your job this week is to **investigate, not memorize**. You'll explore real datasets, ask the right questions, and build your first insight: *Top Cities by Sales*. Each day, the complexity increases as we unlock new angles of the same problem.
 
----
+<br>
 
-<p align="center">
-  <img width="600" alt="TrendHive dashboard" src="https://github.com/user-attachments/assets/trendhive-orders-week1.png" />
-</p>
 
----
-
-## 🗓️ Weekly Breakdown
+## 🗓️ Weekly breakdown
 
 | Day | Theme                             | Discovery Focus                                                      |
 |-----|-----------------------------------|-----------------------------------------------------------------------|
@@ -25,7 +20,7 @@ Your job this week is to **investigate, not memorize**. You'll explore real data
 | 3   | **Sales by City**                 | GROUP BY and ORDER BY to see top cities. Revenue or volume? You decide. |
 | 4   | **Trends Over Time**              | Slice data by date — which days are busiest? How’s momentum changing?  |
 
----
+<br>
 
 ## 🎯 Learning Objectives
 
@@ -37,7 +32,7 @@ By the end of this week, you will be able to:
 - Use `GROUP BY` and simple aggregates to summarize trends
 - Build a basic city-wise sales report for business decision-making
 
----
+<br>
 
 ## 📈 Difficulty Snapshot – Week 1
 
@@ -53,7 +48,7 @@ You’ll ramp up from data exploration to insights, building confidence in query
 
 > 💡 **Tip:** You’ll run into messy rows or unexpected results — pause, debug, and rethink. That’s how real analysts grow.
 
----
+<br>
 
 ## 🧰 Tools Used This Week
 
@@ -63,7 +58,7 @@ You’ll ramp up from data exploration to insights, building confidence in query
 
 > 🗒️ *We recommend using an online SQL editor if you're just starting — no installation needed.*
 
----
+<br>
 
 ## 🏁 End-of-Week Outcomes
 
@@ -75,7 +70,7 @@ By Friday, you should be able to:
 ✅ Compare different types of metrics (revenue vs. quantity)  
 ✅ Present a mini-report to the business team — including what you’d recommend next
 
----
+<br>
 
 > 🚀 **Reflection Prompt:** What surprised you in the sales patterns? Were the top cities what you expected? Did you focus on volume or value — and why?
 
