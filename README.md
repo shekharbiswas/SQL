@@ -21,7 +21,7 @@ And the best part? You don’t just learn — you **build**, every week. 🚀
 <br>
 
 
-## 🧩 The 6W challenge: Can data help TrendHive compete?
+## 🧩 The 6W challenge: _can data help_ TrendHive compete?
 
 **TrendHive** is a rising eCommerce brand selling viral products — from solar-powered gear to eco-friendly accessories. But now it’s scaling fast, and **data is the only way to survive**.
 
