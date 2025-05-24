@@ -75,17 +75,23 @@ Your goal this week is to **connect these dots** and answer one big question:
 
 ## 🔧 Tools You’ll Use
 
-You'll write SQL queries using **DuckDB**, a modern, lightweight SQL engine that runs **directly on CSV files** — no setup, no servers, no hassle.
+You'll write and run SQL queries using **Beekeeper Studio** — a clean, beginner-friendly SQL editor that works seamlessly with local databases like **SQLite**.
 
-You can run DuckDB:
-- In a **Jupyter notebook**
-- Inside **Python scripts**
-- From your **terminal or command line**
-- In **Streamlit apps** (if you like building UIs)
+> 🔗 Download it here: [www.beekeeperstudio.io](https://www.beekeeperstudio.io)
 
-We provide starter scripts — but you're free to work however you feel comfortable.
+### Your workflow:
+1. We’ll load the CSV files (`orders.csv`, `products.csv`) into a **SQLite database**.
+2. You’ll open that SQLite file in **Beekeeper Studio**.
+3. From there, you’ll write SQL queries, explore the data, and uncover insights.
 
-> ✨ DuckDB is blazing fast and perfect for analysts. It lets you go from CSV to insight in seconds.
+Why Beekeeper Studio?
+
+- ✅ Easy setup and clean UI
+- ✅ Works offline with no registration
+- ✅ Browse tables and results visually
+- ✅ Feels close to real-world tools used by analysts
+
+> 🧪 Bonus: This workflow teaches you how data professionals really query local databases.
 
 <br>
 
@@ -123,4 +129,3 @@ In the end, you’ll present:
 🎉 You're ready to dive in. Start with loading the data and exploring your first 100 rows.
 
 Your next step: **`02_intro_to_orders_table.md`**
-
