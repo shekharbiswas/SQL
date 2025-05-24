@@ -6,8 +6,8 @@ This 6-week learning path is designed for **analysts, career switchers, and busi
 Using one powerful company (**TrendHive**), you’ll progressively master:
 - 📄 SQL (Foundations to Advanced)
 - 🧠 Analytics + Business Thinking
-- 🔗 Data Modeling with DBT
-- ❄️ Cloud Data Warehousing with Snowflake
+- 🔗 Modular Data Modeling with **DBT**
+- ❄️ Cloud Data Warehousing with **Snowflake**
 - 📊 Power BI for Interactive Dashboards
 
 And the best part? You don’t just learn — you **build**, every week. 🚀
@@ -15,13 +15,12 @@ And the best part? You don’t just learn — you **build**, every week. 🚀
 <br>
 
 <p align="center">
-  <img width="350" alt="image" src="https://github.com/user-attachments/assets/29ea16f0-d053-418c-aa36-856750f236fe" />
+  <img width="350" alt="TrendHive" src="https://github.com/user-attachments/assets/29ea16f0-d053-418c-aa36-856750f236fe" />
 </p>
 
 <br>
 
-
-## 🧩 The 6W challenge: _can data help_ TrendHive compete?
+## 🧩 The 6W Challenge: _Can Data Help_ TrendHive Compete?
 
 **TrendHive** is a rising eCommerce brand selling viral products — from solar-powered gear to eco-friendly accessories. But now it’s scaling fast, and **data is the only way to survive**.
 
@@ -43,22 +42,22 @@ TrendHive has launched. Orders are flowing. But no one has a clear answer to:
 - What’s the average order size?
 
 ### 🔍 Your task:
-Use basic SQL to analyze the `orders` and `products` datasets. Identify key patterns, then create a **Top Cities by Sales** report.
+Use basic SQL with **DuckDB** to analyze the `orders` and `products` datasets. Identify key patterns, then create a **Top Cities by Sales** report.
 
 <details>
 <summary>💡 Concepts You’ll Explore</summary>
 
 - SQL foundations: SELECT, WHERE, ORDER BY  
 - Filtering text, numbers, and dates  
-- Querying TrendHive’s raw order data  
+- Running queries locally without setup (DuckDB or SQLite)  
 </details>
 
 <details>
 <summary>✅ By the End of Week 1</summary>
 
-- Write basic queries  
-- Filter and sort data  
-- Build your first business insight: *Where should TrendHive focus next?*
+- Write and run basic queries  
+- Sort, filter, and group data  
+- Identify where TrendHive should focus next  
 </details>
 
 <br>
@@ -67,28 +66,28 @@ Use basic SQL to analyze the `orders` and `products` datasets. Identify key patt
 
 > 👥 *“We’ve added a loyalty program. Can we track which customers are worth retaining?”*
 
-Customer data is now available, along with support tickets. The **Customer Support team** wants help analyzing:
+Customer and support ticket data are now available. The Customer Support team wants insights into:
 - Which customers are loyal?
 - Who raises the most tickets?
-- Are high-spending customers getting quick resolutions?
+- Are our VIPs getting the best experience?
 
 ### 🔍 Your task:
-Use joins and aggregates to uncover **top customers, churn risks, and support patterns**.
+Use SQL joins and aggregates to uncover **top customers, churn risks, and support patterns**.
 
 <details>
 <summary>💡 Concepts You’ll Explore</summary>
 
-- JOINs: customers + orders + tickets  
-- Aggregates: SUM, COUNT, AVG  
-- Handling NULLs and segmentation  
+- SQL JOINs (INNER, LEFT)  
+- Aggregations: SUM, COUNT, AVG  
+- Handling NULLs and grouping by customer behavior  
 </details>
 
 <details>
 <summary>✅ By the End of Week 2</summary>
 
-- Combine multiple tables  
-- Segment customers by behavior  
-- Build *Mart 1: `sales_summary`*
+- Join multi-table datasets  
+- Segment customers by activity and value  
+- Build `customer_segments` mart  
 </details>
 
 <br>
@@ -97,30 +96,25 @@ Use joins and aggregates to uncover **top customers, churn risks, and support pa
 
 > 📣 *“We’ve run 3 ad campaigns this month. Which one worked best?”*
 
-The marketing team wants to know:
-- Which campaign brought in buyers (not just clicks)?
-- Which channel had the best ROI?
-- How do we attribute success?
-
-But the data isn’t clean — click doesn’t always mean purchase. You’ll need logic.
+Marketing wants clarity — but the data is messy. Clicks don’t always mean purchases.
 
 ### 🔍 Your task:
-Use advanced SQL to **attribute sales to campaigns**, and report which strategy paid off.
+Use **advanced SQL** to attribute sales to campaigns and determine what truly worked.
 
 <details>
 <summary>💡 Concepts You’ll Explore</summary>
 
-- CTEs and subqueries  
-- CASE WHEN for segmenting  
-- Window functions for user behavior  
+- Common Table Expressions (CTEs)  
+- CASE WHEN and conditional logic  
+- Window functions: ROW_NUMBER, RANK, LAG  
 </details>
 
 <details>
 <summary>✅ By the End of Week 3</summary>
 
-- Build `marketing_analysis` mart  
-- Model attribution logic  
-- Answer the question: *Where should we invest next?*
+- Model campaign attribution logic  
+- Build `marketing_attribution` mart  
+- Recommend data-backed investment decisions  
 </details>
 
 <br>
@@ -129,25 +123,25 @@ Use advanced SQL to **attribute sales to campaigns**, and report which strategy 
 
 > ⭐ *“We just got hundreds of reviews. Are our bestsellers also the best-rated?”*
 
-Now the **product team** needs your help. They suspect some high-revenue items are getting poor reviews. You’ll dive into text data, ratings, and return reasons.
+TrendHive wants to understand the emotional side of product performance.
 
 ### 🔍 Your task:
-Clean and explore `reviews` + `returns` data. Create a dashboard showing **quality insights and product-level pain points.**
+Clean and analyze `reviews` and `returns` data to surface **quality and sentiment insights**.
 
 <details>
 <summary>💡 Concepts You’ll Explore</summary>
 
-- Text filters and review aggregation  
-- Simple sentiment analysis  
-- Power BI dashboarding  
+- Text pattern filtering with LIKE  
+- Basic sentiment scoring using keywords  
+- Dashboarding in Power BI  
 </details>
 
 <details>
 <summary>✅ By the End of Week 4</summary>
 
-- Build `product_feedback` mart  
-- Visualize trends in reviews and returns  
-- Share: *Which products delight vs. disappoint?*
+- Create `product_feedback` mart  
+- Show which products delight vs. disappoint  
+- Visualize insights with Power BI  
 </details>
 
 <br>
@@ -156,30 +150,25 @@ Clean and explore `reviews` + `returns` data. Create a dashboard showing **quali
 
 > 🔧 *“Our queries are growing — and hard to manage. Time to modularize.”*
 
-You’ll now help the **Ops team** structure analytics with **DBT**. They need insights on:
-- Fulfillment efficiency
-- Stock risks
-- Shipment delays
-
-But instead of rewriting every query, you’ll build **staging models and marts** in DBT.
+You’ll help TrendHive structure analytics using **DBT** — the modern standard for SQL modeling.
 
 ### 🔍 Your task:
-Refactor your SQL into a DBT project, and deliver `fulfillment_analytics`.
+Refactor raw queries into modular **DBT models**, then build analytics marts with testing and docs.
 
 <details>
 <summary>💡 Concepts You’ll Explore</summary>
 
 - DBT workflow: sources → staging → marts  
-- Jinja templates, testing, documentation  
-- Inventory and shipping KPIs  
+- Jinja templating and DRY logic  
+- Data tests and documentation  
 </details>
 
 <details>
 <summary>✅ By the End of Week 5</summary>
 
-- Understand modular analytics  
-- Build testable, scalable models in DBT  
-- Track KPIs: delivery times, stockouts  
+- Build `fulfillment_analytics` DBT project  
+- Modularize SQL pipelines  
+- Track KPIs like shipping delays and inventory risk  
 </details>
 
 <br>
@@ -188,32 +177,42 @@ Refactor your SQL into a DBT project, and deliver `fulfillment_analytics`.
 
 > 💼 *“Our CFO wants to see profit trends, ROI, and CLV. Can you deliver an exec dashboard by Friday?”*
 
-TrendHive is scaling fast. It’s time to combine everything:
-- Revenue by channel
-- Profit margins
-- Lifetime value of customers
-
-You’ll use Snowflake for storage, DBT for logic, and Power BI to present insights.
+Now it’s time to **combine everything** into a real executive dashboard.
 
 ### 🔍 Your task:
-Build a final dashboard that supports **executive decision-making**.
+Use **Snowflake + DBT + Power BI** to create a full pipeline and final report for TrendHive’s leadership.
 
 <details>
 <summary>💡 Concepts You’ll Explore</summary>
 
-- Snowflake as a cloud data warehouse  
-- Pipeline automation  
-- Integrating DBT + Power BI  
+- Cloud warehousing with Snowflake  
+- End-to-end pipeline automation  
+- Integrating DBT models with Power BI  
 </details>
 
 <details>
 <summary>✅ By the End of Week 6</summary>
 
-- Automate pipeline refreshes  
-- Present high-level KPIs to execs  
-- Deliver your final TrendHive BI project  
+- Automate data refreshes in Snowflake  
+- Deliver an executive dashboard  
+- Complete your final capstone project  
 </details>
 
 <br>
 
-> 🚀 **Your mission:** Go from SQL learner to modern data pro — ready for jobs, projects, and cloud-native tools.
+---
+
+## 🧠 Modern SQL Concepts You’ll Touch Along the Way
+
+Even as a beginner, you’ll gradually build intuition for powerful, real-world SQL concepts:
+
+- **Materialized Views** — Cache expensive queries to speed up dashboards  
+- **Data Modeling** — Apply dimensional design (star/snowflake schemas)  
+- **Reverse ETL** — Use SQL results to power external tools (e.g., CRM, ads)  
+- **Streaming SQL** — Understand live-querying of real-time data (Kafka SQL, Materialize)
+
+These tools are used by top data teams at companies like Airbnb, Shopify, and Notion — and now, by you.
+
+---
+
+> 🚀 **Your mission:** Go from SQL learner to modern data pro — fluent in cloud-native workflows, analytics tools, and real-world challenges.
