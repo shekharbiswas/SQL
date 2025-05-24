@@ -20,7 +20,7 @@ And the best part? You don’t just learn — you **build**, every week. 🚀
 
 <br>
 
-## 🧩 The 6W Challenge: _Can Data Help_ TrendHive Compete?
+## 🧩 Challenge: _Can Data Help_ TrendHive Compete?
 
 **TrendHive** is a rising eCommerce brand selling viral products — from solar-powered gear to eco-friendly accessories. But now it’s scaling fast, and **data is the only way to survive**.
 
@@ -31,6 +31,29 @@ Instead, each week starts with a **realistic business problem**.
 You’ll investigate, explore multiple paths, and present what *you* think is the best insight.
 
 <br>
+<br>
+
+## 🖥️ How the TrendHive Data System Works
+
+At TrendHive, raw data flows in daily from various sources:
+
+- 🛒 **Orders** from the eCommerce platform  
+- 👤 **Customer data** from CRM systems  
+- 🎯 **Campaign logs** from marketing tools  
+- ⭐ **Reviews and returns** from product feedback forms  
+- 📦 **Fulfillment data** from warehouse and shipping APIs
+
+These datasets are:
+- Stored in **Snowflake** (cloud warehouse)
+- Modeled using **DBT** (for structured analytics)
+- Explored via **SQL**, **Power BI**, and reverse ETL outputs
+
+You’ll operate inside this system as a **hands-on analyst** — writing SQL models, testing assumptions, and delivering insights that plug into real dashboards and business workflows.
+
+
+<br>
+<br>
+
 
 ## 🧠 Week 1: Where Are We Selling the Most?
 
