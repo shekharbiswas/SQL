@@ -37,7 +37,7 @@
 > **“Can timing tell us what people use vs. gift?”**  
 > → Yes. Order timing (weekday vs. weekend, seasonal trends) reveals **why** people buy — not just **what**.
 
-
+<br>
 
 # 📅 Week 2: Who Are Our Best Customers?
 
