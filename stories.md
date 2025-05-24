@@ -119,3 +119,131 @@
 
 > **“Are we spending the most where we’re earning the least?”**  
 > → Rebalance budgets based on **ROI per channel**, not just engagement or clicks.
+
+
+
+# 📅 Week 5: Everything Works... Until It Doesn’t
+
+**Role:** You’re no longer just an analyst. You’ve just been promoted to **Analytics Engineer**.  
+**Mission:** Refactor TrendHive’s fragile SQL setup into a modular DBT project.  
+**Reality:** You’re inheriting a patchy pipeline built by 4 people, half documented, and none tested.
+
+---
+
+## 🔧 What You Discover (Real Problems, Real Fast)
+
+- 📊 Revenue queries show **different totals across dashboards** — and no one knows why.  
+- 🔁 Six copies of the same JOIN logic across different queries — each with a unique bug.  
+- 📦 Filters for “active products” are written 5 different ways — leading to misaligned KPIs.  
+- 🧱 Staging models are nonexistent — everyone queries raw CSVs or views.  
+- ⚠️ A dashboard broke last week... but with **no data tests**, no one noticed.  
+- 🧾 Returns are sometimes **added back to inventory**, sometimes not.  
+- 🕵️ No one can answer: “Where is this number coming from?”  
+- ⛔ A junior accidentally deleted 3 months of logic thinking it was “unused.”  
+- 📉 Shipping KPIs don’t match operations reality — fulfillment delays go unreported.  
+- 🧮 Even margin calculation changes slightly depending on who runs the report.
+
+---
+
+## 🧠 Why It Matters
+
+You’re not solving one business problem —  
+You’re solving **how your company solves problems.**
+
+If your DBT models are:
+
+- ❌ messy  
+- ❌ duplicated  
+- ❌ undocumented  
+- ❌ untested  
+
+Then nothing else downstream — not dashboards, not decisions — will ever be trustworthy.
+
+---
+
+## 🛠️ What You’ll Do This Week
+
+- Audit existing SQL logic  
+- Build a layered DBT project: **sources → staging → marts**  
+- Add reusable macros for key metrics  
+- Write tests for nulls, joins, and business rules  
+- Document every model clearly
+
+---
+
+## 🎯 End Goal
+
+By the end of the week, TrendHive’s SQL will feel like a **well-oiled machine**:  
+- 🧱 Clean models  
+- 📐 Standardized KPIs  
+- 🧪 Tests that catch problems  
+- 🧾 Dashboards that execs actually trust
+
+---
+
+> **Final Reflection Prompt:**  
+> “What does reusable SQL mean to you — and how did it change your confidence this week?”
+
+---
+
+# 📅 Week 6: The CFO Is Waiting in Room 4B
+
+**Role:** Lead Analyst  
+**Mission:** Present your first **executive dashboard**.  
+**Reality:** The CFO doesn’t trust last quarter’s numbers and needs a fresh view before Friday’s board meeting.
+
+---
+
+## 🧨 The Problems Stack Up Fast
+
+- 📉 Margin report shows different numbers than what marketing presented.  
+- 🔁 CLV formula doesn’t account for **refunded orders** — inflates performance.  
+- ⏳ Shipping delays spiked in January, but no one reported it because the field was null.  
+- 🧾 Product cost increased in Snowflake but wasn’t updated in DBT models.  
+- 🔗 Attribution logic is a mess — some campaigns double count revenue.  
+- 🕳️ Returns data is missing from `returns_2023_q4.csv` — no alerts fired.  
+- 🔐 Power BI dashboard is broken due to permission changes in Snowflake.  
+- 🧠 Region segmentation is needed — but there’s **no `region` field** in the model.  
+- 🗂️ Finance, marketing, and product each use **separate pipelines** for the same KPIs.  
+- 🫥 And you? You’re the only one who understands the pipeline.  
+
+---
+
+## 🧭 What the CFO Actually Wants
+
+- 📊 Revenue by channel  
+- 💰 Profit margin by category  
+- 🔁 CLV by loyalty tier  
+- 📦 Return rate trends  
+- 🚚 Delays vs NPS risk  
+- 📉 Inventory turnover by SKU class  
+- 🧾 Campaign ROI (but only attributed revenue)  
+- 🧍 Top 10% of customers by total profit  
+
+All of it **accurate**, **drillable**, and **updated daily**.
+
+---
+
+## 🛠️ What You’ll Do This Week
+
+- Finalize and QA all DBT models  
+- Clean up logic across finance + ops  
+- Build and deploy the Power BI dashboard  
+- Write a 1-pager that answers:  
+  > “If the CFO asks: how do you know this is right?”  
+- Record a short walkthrough (async, optional)
+
+---
+
+## 🎯 End Goal
+
+- A working executive dashboard  
+- A tested, trusted pipeline  
+- A confident response to high-level questions  
+- A system the entire company can build on
+
+---
+
+> **Final Reflection Prompt:**  
+> “When did you feel the switch from answering questions… to being trusted with decisions?”
+
