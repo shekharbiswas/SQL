@@ -1,3 +1,44 @@
+# 📅 Week 1: Where Are We Selling the Most?
+
+**Focus:** City Trends, Product Demand, and Emerging Patterns
+
+## 🔍 10 Micro-Stories (from `orders` + `products`)
+
+- 💡 **Solar Lamps** are consistently ordered from **Berlin** and **Cologne**, likely for balcony and garden use.  
+- ♻️ **Compost Bins** are surprisingly popular in smaller eco-conscious cities like **Freiburg** and **Tübingen**.  
+- 🏃 **Reusable Bottles** spike in **Munich** and **Hamburg** — hinting at fitness culture or sports usage.  
+- 🔧 **Bike Repair Kits** are a hit in **Leipzig**, **Stuttgart**, and **Münster** — cities with strong cycling communities.  
+- 🎄 **LED Fairy Lights** surge in **late November and December**, especially in **Cologne** — likely tied to gift-giving and Advent.  
+- 🧴 **Organic Soap** sees weekend spikes in **Stuttgart** and **Nürnberg** — possibly used as gifts or bundle items.  
+- 🌡️ **Smart Thermometers** are often ordered on weekdays from **Frankfurt** — tied to hybrid home-office life.  
+- 🛍️ **Foldable Shopping Bags** are trending in **Berlin** and **Hamburg** — correlating with local plastic bag bans.  
+- 🌱 **Desk Plant Kits** sell steadily in **Frankfurt** and **Munich** — linked to workspace decor or gifting.  
+- 🔋 **Portable Chargers** sell more on weekends in **Frankfurt** and **Düsseldorf** — airports suggest travel use.
+
+<br>
+
+## 🔗 5 Behavior Patterns (Grouped Insights)
+
+| Theme                   | Pattern                                                                 |
+|------------------------|-------------------------------------------------------------------------|
+| 🏙️ Urban Lifestyle      | Compact, sustainable products like lamps, bags, and desk plants are popular in dense cities.  
+| ♻️ Eco-Centric Living   | Green-focused cities prefer compost bins, toothbrushes, and soaps.  
+| 🎁 Gifting Seasonality  | Products like fairy lights and soap peak around weekends and holidays.  
+| 🚴 Mobility & Commuting | Cities with cycling culture favor repair kits and portable gear.  
+| 🕰️ Weekday vs. Weekend  | Some products trend by day type — work vs. leisure usage.
+
+<br>
+
+## 🎯 2 Strategic Decision Points
+
+> **“Should TrendHive segment marketing by city behavior instead of by product category?”**  
+> → Yes. City context (fitness, eco, urban lifestyle) is a stronger driver than product type alone.
+
+> **“Can timing tell us what people use vs. gift?”**  
+> → Yes. Order timing (weekday vs. weekend, seasonal trends) reveals **why** people buy — not just **what**.
+
+
+
 # 📅 Week 2: Who Are Our Best Customers?
 
 **Focus:** Loyalty, Value, and Friction
@@ -15,7 +56,8 @@
 - 🧼 Frequent buyers of **Organic Soap** tend to open **“product quality”** tickets.  
 - 🧾 Several customers place **bulk orders only once per quarter** — possibly businesses?  
 
----
+<br>
+
 
 ## 🔗 5 Behavior Patterns (Grouped Insights)
 
@@ -27,7 +69,7 @@
 | 📬 Marketing opt-out ≠ lost  | Some buyers don’t need emails — they return on habit or need.           |
 | 🚨 Support = product signal  | Tickets often expose product issues faster than reviews.                |
 
----
+<br>
 
 ## 🎯 2 Strategic Decision Points
 
@@ -37,7 +79,7 @@
 > **“Can support data help reduce churn before it happens?”**  
 > → Early intervention based on time-between-orders + complaint type.
 
----
+<br>
 
 # 📅 Week 3: Are Our Marketing Campaigns Working?
 
@@ -56,7 +98,7 @@
 - 📦 Bulk orders came from **search campaigns**, not social.  
 - 🧍 Repeat customers often **ignored campaigns** — bought on habit or reminders.  
 
----
+<br>
 
 ## 🔗 5 Grouped Insights
 
@@ -68,7 +110,7 @@
 | 🔂 Multi-touch is real      | Repeat exposure increases conversion chances.                      |
 | 🤖 Organic buyers exist      | Some customers convert **without any campaign touch** at all.      |
 
----
+<br>
 
 ## 🎯 2 Strategic Decision Points
 
