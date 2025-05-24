@@ -31,7 +31,6 @@ Instead, each week starts with a **realistic business problem**.
 You’ll investigate, explore multiple paths, and present what *you* think is the best insight.
 
 <br>
-<br>
 
 ## 🖥️ How the TrendHive Data System Works
 
@@ -50,10 +49,7 @@ These datasets are:
 
 You’ll operate inside this system as a **hands-on analyst** — writing SQL models, testing assumptions, and delivering insights that plug into real dashboards and business workflows.
 
-
 <br>
-<br>
-
 
 ## 🧠 Week 1: Where Are We Selling the Most?
 
