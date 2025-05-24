@@ -49,7 +49,7 @@ Example columns:
 
 <br>
 
-<img width="300" alt="image" src="https://github.com/user-attachments/assets/8b5b45d0-4e8d-4cfc-be09-0ed1d21a5291" />
+<img width="450" alt="image" src="https://github.com/user-attachments/assets/8b5b45d0-4e8d-4cfc-be09-0ed1d21a5291" />
 
 <br>
 
