@@ -27,7 +27,7 @@ SQL is the key to:
 
 <br>
 
-## 🧠 SQL Is Simple — But Powerful
+## 🧠 SQL is simple — but _Powerful_
 
 SQL doesn’t look like typical code. It reads like a sentence:
 
@@ -42,7 +42,7 @@ That’s why non-programmers, marketers, product managers, and even CFOs are lea
 
 <br>
 
-## 🚀 SQL Makes You Independent
+## 🚀 SQL makes you _independent_
 
 Have you ever asked someone for a data report — and waited for days?
 
