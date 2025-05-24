@@ -1,15 +1,16 @@
 # 📘 Overview: _Where_ are we selling the most?
 
-Welcome to Week 1 of your SQL journey at **TrendHive Bootcamp**. This week, you join the team just after TrendHive’s e-commerce site has launched. Orders are rolling in — but the business has no idea where success is coming from.
+Welcome to Week 1 of your SQL journey at **TrendHive**. This week, you join the team just after TrendHive’s e-commerce site has launched. Orders are rolling in — but the business has limited idea where success is coming from.
 
-Instead of starting with SQL theory, we start with a **problem**:
+So, we have a **problem** for this week:
 
 > 💬 *“We know orders are happening... but which cities are driving our sales? What products are popular? And what exactly is our average order size?”*
 
-Your job this week is to **investigate, not memorize**. You'll explore real datasets, ask the right questions, and build your first insight: *Top Cities by Sales*. Each day, the complexity increases as we unlock new angles of the same problem.
+Your job this week is to **investigate, not memorize**. You'll explore real datasets using **DuckDB**, ask the right questions, and build your first insight: *Top Cities by Sales*. Each day, the complexity increases as we unlock new angles of the same problem.
+
+Each day is broken down into modular lessons — individual markdown files that focus on **one concept at a time**. Learn by doing. Rethink as needed. And build something that makes sense.
 
 <br>
-
 
 ## 🗓️ Weekly breakdown
 
@@ -20,6 +21,8 @@ Your job this week is to **investigate, not memorize**. You'll explore real data
 | 3   | **Sales by City**                 | GROUP BY and ORDER BY to see top cities. Revenue or volume? You decide. |
 | 4   | **Trends Over Time**              | Slice data by date — which days are busiest? How’s momentum changing?  |
 
+Each day lives in its own folder (e.g., `Day-1`, `Day-2`, ...) and contains multiple `.md` files — one per concept — so you can learn step by step.
+
 <br>
 
 ## 🎯 Learning Objectives
@@ -27,6 +30,7 @@ Your job this week is to **investigate, not memorize**. You'll explore real data
 By the end of this week, you will be able to:
 
 - Read and explore structured SQL datasets (`orders`, `products`)
+- Load and query CSV files using **DuckDB**
 - Write basic SQL queries: `SELECT`, `WHERE`, `ORDER BY`
 - Join two tables using keys (foreign key: `product_id`)
 - Use `GROUP BY` and simple aggregates to summarize trends
@@ -52,11 +56,11 @@ You’ll ramp up from data exploration to insights, building confidence in query
 
 ## 🧰 Tools Used This Week
 
-- **SQL Playground / Jupyter Notebook** (or DB of your choice)
-- Provided CSV datasets: `orders.csv`, `products.csv`
-- Optional: Any database with SQL support (SQLite, Postgres, BigQuery)
+- 🦆 **DuckDB** (lightweight SQL engine for CSVs — no install needed with Python or CLI)
+- 🗃️ CSV datasets: `orders.csv`, `products.csv`
+- 🧑‍💻 Code editor or notebook (VS Code, Jupyter, or Streamlit optional)
 
-> 🗒️ *We recommend using an online SQL editor if you're just starting — no installation needed.*
+> 🗒️ *DuckDB makes SQL feel fast, clean, and local — perfect for first-time analysts.*
 
 <br>
 
@@ -73,4 +77,3 @@ By Friday, you should be able to:
 <br>
 
 > 🚀 **Reflection Prompt:** What surprised you in the sales patterns? Were the top cities what you expected? Did you focus on volume or value — and why?
-
