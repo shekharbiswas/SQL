@@ -60,7 +60,7 @@ You’ll ramp up from data exploration to insights, building confidence in query
 - 🗃️ CSV datasets: `orders.csv`, `products.csv`
 - 🧑‍💻 Code editor or notebook (VS Code, Jupyter, or Streamlit optional)
 
-> 🗒️ *DuckDB makes SQL feel fast, clean, and local — perfect for first-time analysts.*
+> 🗒️ *Beekeeper Studio makes SQL feel fast, clean, and local — perfect for first-time analysts.*
 
 <br>
 
