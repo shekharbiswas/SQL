@@ -46,6 +46,8 @@ To open it:
 
 You should now see your database listed in the left sidebar.
 
+👉 Link: [**trendhive_week1.db**](https://github.com/shekharbiswas/SQL/blob/main/WEEK1/DAY1/trendhive_week1.db)
+
 <br>
 
 ## ✅ Optional: Load Prebuilt `.db` File
