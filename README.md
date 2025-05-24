@@ -61,7 +61,7 @@ TrendHive has launched. Orders are flowing. But no one has a clear answer to:
 - What’s the average order size?
 
 ### 🔍 Your task:
-Use basic SQL with **DuckDB** to analyze the `orders` and `products` datasets. Identify key patterns, then create a **Top Cities by Sales** report.
+Use basic SQL with **Beekeeper Studio** to analyze the `orders` and `products` datasets. Identify key patterns, then create a **Top Cities by Sales** report.
 
 <details>
 <summary>💡 Concepts You’ll Explore</summary>
