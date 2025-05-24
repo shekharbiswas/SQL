@@ -120,7 +120,7 @@
 > **“Are we spending the most where we’re earning the least?”**  
 > → Rebalance budgets based on **ROI per channel**, not just engagement or clicks.
 
-
+<br>
 
 # 📅 Week 5: Everything Works... Until It Doesn’t
 
@@ -128,7 +128,7 @@
 **Mission:** Refactor TrendHive’s fragile SQL setup into a modular DBT project.  
 **Reality:** You’re inheriting a patchy pipeline built by 4 people, half documented, and none tested.
 
----
+<br>
 
 ## 🔧 What You Discover (Real Problems, Real Fast)
 
@@ -143,7 +143,7 @@
 - 📉 Shipping KPIs don’t match operations reality — fulfillment delays go unreported.  
 - 🧮 Even margin calculation changes slightly depending on who runs the report.
 
----
+<br>
 
 ## 🧠 Why It Matters
 
@@ -159,7 +159,7 @@ If your DBT models are:
 
 Then nothing else downstream — not dashboards, not decisions — will ever be trustworthy.
 
----
+<br>
 
 ## 🛠️ What You’ll Do This Week
 
@@ -169,7 +169,7 @@ Then nothing else downstream — not dashboards, not decisions — will ever be 
 - Write tests for nulls, joins, and business rules  
 - Document every model clearly
 
----
+<br>
 
 ## 🎯 End Goal
 
@@ -179,12 +179,12 @@ By the end of the week, TrendHive’s SQL will feel like a **well-oiled machine*
 - 🧪 Tests that catch problems  
 - 🧾 Dashboards that execs actually trust
 
----
+<br>
 
 > **Final Reflection Prompt:**  
 > “What does reusable SQL mean to you — and how did it change your confidence this week?”
 
----
+<br>
 
 # 📅 Week 6: The CFO Is Waiting in Room 4B
 
@@ -192,7 +192,7 @@ By the end of the week, TrendHive’s SQL will feel like a **well-oiled machine*
 **Mission:** Present your first **executive dashboard**.  
 **Reality:** The CFO doesn’t trust last quarter’s numbers and needs a fresh view before Friday’s board meeting.
 
----
+<br>
 
 ## 🧨 The Problems Stack Up Fast
 
@@ -207,7 +207,7 @@ By the end of the week, TrendHive’s SQL will feel like a **well-oiled machine*
 - 🗂️ Finance, marketing, and product each use **separate pipelines** for the same KPIs.  
 - 🫥 And you? You’re the only one who understands the pipeline.  
 
----
+<br>
 
 ## 🧭 What the CFO Actually Wants
 
@@ -222,7 +222,7 @@ By the end of the week, TrendHive’s SQL will feel like a **well-oiled machine*
 
 All of it **accurate**, **drillable**, and **updated daily**.
 
----
+<br>
 
 ## 🛠️ What You’ll Do This Week
 
@@ -233,7 +233,7 @@ All of it **accurate**, **drillable**, and **updated daily**.
   > “If the CFO asks: how do you know this is right?”  
 - Record a short walkthrough (async, optional)
 
----
+<br>
 
 ## 🎯 End Goal
 
@@ -242,7 +242,7 @@ All of it **accurate**, **drillable**, and **updated daily**.
 - A confident response to high-level questions  
 - A system the entire company can build on
 
----
+<br>
 
 > **Final Reflection Prompt:**  
 > “When did you feel the switch from answering questions… to being trusted with decisions?”
