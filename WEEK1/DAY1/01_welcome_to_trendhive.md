@@ -127,5 +127,3 @@ In the end, you’ll present:
 ---
 
 🎉 You're ready to dive in. Start with loading the data and exploring your first 100 rows.
-
-Your next step: **`02_intro_to_orders_table.md`**
