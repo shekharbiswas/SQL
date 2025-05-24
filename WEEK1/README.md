@@ -30,7 +30,7 @@ Each day lives in its own folder (e.g., `Day-1`, `Day-2`, ...) and contains mult
 By the end of this week, you will be able to:
 
 - Read and explore structured SQL datasets (`orders`, `products`)
-- Load and query CSV files using **DuckDB**
+- Load and query CSV files using **Beekeeper Studio**
 - Write basic SQL queries: `SELECT`, `WHERE`, `ORDER BY`
 - Join two tables using keys (foreign key: `product_id`)
 - Use `GROUP BY` and simple aggregates to summarize trends
