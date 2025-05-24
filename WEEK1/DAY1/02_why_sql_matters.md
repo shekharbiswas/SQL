@@ -40,7 +40,7 @@ GROUP BY city;
 Even if you’ve never seen this before, you can almost read it like English.  
 That’s why non-programmers, marketers, product managers, and even CFOs are learning SQL today.
 
----
+<br>
 
 ## 🚀 SQL Makes You Independent
 
