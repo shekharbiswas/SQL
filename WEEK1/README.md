@@ -6,7 +6,7 @@ So, we have a **problem** for this week:
 
 > 💬 *“We know orders are happening... but which cities are driving our sales? What products are popular? And what exactly is our average order size?”*
 
-Your job this week is to **investigate, not memorize**. You'll explore real datasets using **DuckDB**, ask the right questions, and build your first insight: *Top Cities by Sales*. Each day, the complexity increases as we unlock new angles of the same problem.
+Your job this week is to **investigate, not memorize**. You'll explore real datasets using **Beekeeper Studio**, ask the right questions, and build your first insight: *Top Cities by Sales*. Each day, the complexity increases as we unlock new angles of the same problem.
 
 Each day is broken down into modular lessons — individual markdown files that focus on **one concept at a time**. Learn by doing. Rethink as needed. And build something that makes sense.
 
