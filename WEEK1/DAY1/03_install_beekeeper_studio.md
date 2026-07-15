@@ -1,64 +1,43 @@
-# 🧰 Install & Set Up Beekeeper Studio
+# Install & Set Up Beekeeper Studio
 
-To start querying data, we need a tool where we can **connect to a database**, **run SQL**, and **see our results clearly**.
+To start querying data, we need a tool where we can connect to a database, run SQL, and see the results clearly.
 
-That tool is **[Beekeeper Studio](https://www.beekeeperstudio.io/)** — a modern, beginner-friendly SQL editor that works beautifully with **SQLite** (our database format for Week 1).
+That tool is [Beekeeper Studio](https://www.beekeeperstudio.io/) — a modern, beginner-friendly SQL editor that works well with SQLite and DuckDB, either of which we'll use to hold the Capital Bikeshare trip data for this week.
 
-<br>
+## Step 1: Download Beekeeper Studio
 
-## ✅ Step 1: Download Beekeeper Studio
-
-Visit the official website:  
-👉 [https://www.beekeeperstudio.io](https://www.beekeeperstudio.io)
+Visit the official site: [https://www.beekeeperstudio.io](https://www.beekeeperstudio.io)
 
 Choose the version for your system:
 
-- 💻 Windows: EXE installer  
-- 🍎 macOS: DMG installer  
-- 🐧 Linux: AppImage or Snap
+- Windows: EXE installer
+- macOS: DMG installer
+- Linux: AppImage or Snap
 
-> ⚠️ Make sure to install the **desktop version**, not the Cloud/Pro beta.
+Install the desktop version, not the Cloud/Pro beta — the desktop version is what we'll use throughout the course.
 
-<br>
+## Step 2: Launch the App
 
-## 🚀 Step 2: Launch the App
+Once installed, open Beekeeper Studio. You'll see:
 
-Once installed, open **Beekeeper Studio**. You’ll see:
+- A welcome screen with options to connect to a database
+- A left sidebar where tables will appear once connected
+- A central editor where you write and run SQL
 
-- A welcome screen with options to connect to databases  
-- A left sidebar where your tables will appear once connected  
-- A central editor where you can write and run SQL
+## Step 3: Connect to Your Database
 
-<br>
+Here's the one place this week is different from a typical tutorial: there's no ready-made database file sitting in a repository waiting for you to download. Capital Bikeshare publishes its trip data as raw monthly CSV files, seven years of them, and part of this week's work is turning that raw data into an actual queryable database yourself.
 
-## 🗃️ Step 3: Connect to Your SQLite Database
+The next lesson walks through exactly how to do that — downloading the CSVs and combining them into a single database file using DuckDB. Once that file exists, connecting to it in Beekeeper Studio is the same either way:
 
-If you're starting fresh, you’ll first need a `.db` file created from your CSVs.  
-(We’ll guide you through that in the next step.)
+1. Click "New Connection"
+2. Select SQLite or DuckDB, depending on which format you built
+3. Click "Choose a Database File"
+4. Browse to and select your database file (for example, `bikeshare_2019_2026.db`)
+5. Click Connect
 
-To open it:
+You should then see your database and its tables listed in the left sidebar.
 
-1. Click **"New Connection"**
-2. Select **SQLite**  
-3. Click **“Choose a Database File”**
-4. Browse and select your `.db` file (e.g., `trendhive_week1.db`)
-5. Click **Connect**
+## What's Next
 
-You should now see your database listed in the left sidebar.
-
-👉 Link: [**trendhive_week1.db**](https://github.com/shekharbiswas/SQL/blob/main/WEEK1/DAY1/trendhive_week1.db)
-
-<br>
-
-## ✅ Optional: Load Prebuilt `.db` File
-
-If you already have a shared `.db` file with `orders` and `products` loaded, you can skip CSV import.
-
-Use the same **SQLite → Choose File → Connect** process.
-
-<br>
-
-## 💡 What’s Next?
-
-You're ready to write your first SQL queries!
-
+Before building that database file, it's worth pausing on two basic ideas: what a database actually is, and what a table is. The next lesson covers that, and the one after it walks through building your own Capital Bikeshare database from scratch.
