@@ -1,237 +1,147 @@
-# 📊 SQL & Modern Data Tools
+# SQL & Modern Data Tools
 
-At **Dataskools**, we believe that data skills are the foundation of every future-proof career.  
-This 6-week learning path is designed for **analysts, career switchers, and business professionals** who want to become job-ready with SQL — and go beyond.
+At Dataskools, we build data skills on real data, not toy examples. This six-week course takes learners from SQL fundamentals to modern data warehousing, progressing week by week from core querying through joins, data cleaning, dashboarding, and modern data modeling with dbt and Snowflake.
 
-Using one powerful company (**TrendHive**), you’ll progressively master:
-- 📄 SQL (Foundations to Advanced)
-- 🧠 Analytics + Business Thinking
-- 🔗 Modular Data Modeling with **DBT**
-- ❄️ Cloud Data Warehousing with **Snowflake**
-- 📊 Power BI for Interactive Dashboards
+Week 1 is grounded in a real dataset — Capital Bikeshare trip data (2019–2026, seven years) joined with NOAA weather data — to teach the fundamentals on something with genuine scale and messiness. From Week 2 onward, the course moves through progressively more advanced SQL and data engineering concepts, applied to datasets appropriate to each topic.
 
-And the best part? You don’t just learn — you **build**, every week. 🚀
+## Course Structure
 
-<br>
-
-<p align="center">
-  <img width="350" alt="TrendHive" src="https://github.com/user-attachments/assets/29ea16f0-d053-418c-aa36-856750f236fe" />
-</p>
-
-<br>
-
-## 🧩 Challenge: _Can Data Help_ TrendHive Compete?
-
-**TrendHive** is a rising eCommerce brand selling viral products — from solar-powered gear to eco-friendly accessories. But now it’s scaling fast, and **data is the only way to survive**.
-
-They’ve hired you as a **junior data analyst** to support product, marketing, and operations teams. But there’s a catch — each team comes with **messy questions, evolving goals, and incomplete information.**
-
-You won’t be told what to do.  
-Instead, each week starts with a **realistic business problem**.  
-You’ll investigate, explore multiple paths, and present what *you* think is the best insight.
-
-<br>
-
-## 🖥️ How the TrendHive Data System Works
-
-At TrendHive, raw data flows in daily from various sources:
-
-- 🛒 **Orders** from the eCommerce platform  
-- 👤 **Customer data** from CRM systems  
-- 🎯 **Campaign logs** from marketing tools  
-- ⭐ **Reviews and returns** from product feedback forms  
-- 📦 **Fulfillment data** from warehouse and shipping APIs
-
-These datasets are:
-- Stored in **Snowflake** (cloud warehouse)
-- Modeled using **DBT** (for structured analytics)
-- Explored via **SQL**, **Power BI**, and reverse ETL outputs
-
-You’ll operate inside this system as a **hands-on analyst** — writing SQL models, testing assumptions, and delivering insights that plug into real dashboards and business workflows.
-
-<br>
-
-## 🧠 Week 1: Where Are We Selling the Most?
-
-> 📦 *“Sales just started coming in — but we don’t know what’s actually selling well.”*
-
-TrendHive has launched. Orders are flowing. But no one has a clear answer to:
-- Which cities are performing best?
-- What products are trending?
-- What’s the average order size?
-
-### 🔍 Your task:
-Use basic SQL with **Beekeeper Studio** to analyze the `orders` and `products` datasets. Identify key patterns, then create a **Top Cities by Sales** report.
-
-<details>
-<summary>💡 Concepts You’ll Explore</summary>
-
-- SQL foundations: SELECT, WHERE, ORDER BY  
-- Filtering text, numbers, and dates  
-- Running queries locally without setup (DuckDB or SQLite)  
-</details>
-
-<details>
-<summary>✅ By the End of Week 1</summary>
-
-- Write and run basic queries  
-- Sort, filter, and group data  
-- Identify where TrendHive should focus next  
-</details>
-
-<br>
-
-## 🔗 Week 2: Who Are Our Best Customers?
-
-> 👥 *“We’ve added a loyalty program. Can we track which customers are worth retaining?”*
-
-Customer and support ticket data are now available. The Customer Support team wants insights into:
-- Which customers are loyal?
-- Who raises the most tickets?
-- Are our VIPs getting the best experience?
-
-### 🔍 Your task:
-Use SQL joins and aggregates to uncover **top customers, churn risks, and support patterns**.
-
-<details>
-<summary>💡 Concepts You’ll Explore</summary>
-
-- SQL JOINs (INNER, LEFT)  
-- Aggregations: SUM, COUNT, AVG  
-- Handling NULLs and grouping by customer behavior  
-</details>
-
-<details>
-<summary>✅ By the End of Week 2</summary>
-
-- Join multi-table datasets  
-- Segment customers by activity and value  
-- Build `customer_segments` mart  
-</details>
-
-<br>
-
-## 📈 Week 3: Are Our Marketing Campaigns Working?
-
-> 📣 *“We’ve run 3 ad campaigns this month. Which one worked best?”*
-
-Marketing wants clarity — but the data is messy. Clicks don’t always mean purchases.
-
-### 🔍 Your task:
-Use **advanced SQL** to attribute sales to campaigns and determine what truly worked.
-
-<details>
-<summary>💡 Concepts You’ll Explore</summary>
-
-- Common Table Expressions (CTEs)  
-- CASE WHEN and conditional logic  
-- Window functions: ROW_NUMBER, RANK, LAG  
-</details>
-
-<details>
-<summary>✅ By the End of Week 3</summary>
-
-- Model campaign attribution logic  
-- Build `marketing_attribution` mart  
-- Recommend data-backed investment decisions  
-</details>
-
-<br>
-
-## 📊 Week 4: How Do Customers Feel About Our Products?
-
-> ⭐ *“We just got hundreds of reviews. Are our bestsellers also the best-rated?”*
-
-TrendHive wants to understand the emotional side of product performance.
-
-### 🔍 Your task:
-Clean and analyze `reviews` and `returns` data to surface **quality and sentiment insights**.
-
-<details>
-<summary>💡 Concepts You’ll Explore</summary>
-
-- Text pattern filtering with LIKE  
-- Basic sentiment scoring using keywords  
-- Dashboarding in Power BI  
-</details>
-
-<details>
-<summary>✅ By the End of Week 4</summary>
-
-- Create `product_feedback` mart  
-- Show which products delight vs. disappoint  
-- Visualize insights with Power BI  
-</details>
-
-<br>
-
-## 🧱 Week 5: Can We Make Our SQL Reusable?
-
-> 🔧 *“Our queries are growing — and hard to manage. Time to modularize.”*
-
-You’ll help TrendHive structure analytics using **DBT** — the modern standard for SQL modeling.
-
-### 🔍 Your task:
-Refactor raw queries into modular **DBT models**, then build analytics marts with testing and docs.
-
-<details>
-<summary>💡 Concepts You’ll Explore</summary>
-
-- DBT workflow: sources → staging → marts  
-- Jinja templating and DRY logic  
-- Data tests and documentation  
-</details>
-
-<details>
-<summary>✅ By the End of Week 5</summary>
-
-- Build `fulfillment_analytics` DBT project  
-- Modularize SQL pipelines  
-- Track KPIs like shipping delays and inventory risk  
-</details>
-
-<br>
-
-## ❄️ Week 6: Can We Build a CEO Dashboard?
-
-> 💼 *“Our CFO wants to see profit trends, ROI, and CLV. Can you deliver an exec dashboard by Friday?”*
-
-Now it’s time to **combine everything** into a real executive dashboard.
-
-### 🔍 Your task:
-Use **Snowflake + DBT + Power BI** to create a full pipeline and final report for TrendHive’s leadership.
-
-<details>
-<summary>💡 Concepts You’ll Explore</summary>
-
-- Cloud warehousing with Snowflake  
-- End-to-end pipeline automation  
-- Integrating DBT models with Power BI  
-</details>
-
-<details>
-<summary>✅ By the End of Week 6</summary>
-
-- Automate data refreshes in Snowflake  
-- Deliver an executive dashboard  
-- Complete your final capstone project  
-</details>
-
-<br>
+Six weeks, progressing from SQL basics through dbt and Snowflake, with Power BI as the visualization layer once the SQL foundation is solid.
 
 ---
 
-## 🧠 Modern SQL Concepts You’ll Touch Along the Way
+### Week 1: SQL Foundations — Reading the Ride Data
 
-Even as a beginner, you’ll gradually build intuition for powerful, real-world SQL concepts:
+**Goal:** Learn core SQL syntax and get comfortable extracting information from raw trip records.
 
-- **Materialized Views** — Cache expensive queries to speed up dashboards  
-- **Data Modeling** — Apply dimensional design (star/snowflake schemas)  
-- **Reverse ETL** — Use SQL results to power external tools (e.g., CRM, ads)  
-- **Streaming SQL** — Understand live-querying of real-time data (Kafka SQL, Materialize)
+The Capital Bikeshare trip table is the starting point: millions of rows spanning 2019 to 2026, one row per ride. Learners write their first queries directly against this table before anything is joined or modeled.
 
-These tools are used by top data teams at companies like Airbnb, Shopify, and Notion — and now, by you.
+Topics covered:
+- What SQL is, and how relational data is structured
+- `SELECT`, `FROM`, `WHERE`
+- `ORDER BY`, `LIMIT`, and logical operators
+- Filtering by text, numeric, and date fields
+- Working with timestamps across a multi-year date range
+
+Activities:
+- Explore the raw trips dataset in a SQL sandbox (DuckDB or SQLite, no setup required)
+- Filter rides by year, month, station, and rider type
+- Get a first look at the 2019–2026 date range and how ride volume is distributed across it
+
+Mini-task: Find the three busiest start stations and the year with the highest total ride count.
 
 ---
 
-> 🚀 **Your mission:** Go from SQL learner to modern data pro — fluent in cloud-native workflows, analytics tools, and real-world challenges.
+### Week 2: Joins, Aggregates & Grouping
+
+**Goal:** Combine multiple related tables and summarize information across them.
+
+This week introduces multi-table datasets. Learners practice joining records across tables, handling mismatches, and summarizing results at different levels of granularity.
+
+Topics covered:
+- `INNER JOIN`, `LEFT JOIN`, `RIGHT JOIN`
+- `GROUP BY` with `COUNT`, `SUM`, `AVG`
+- `HAVING` versus `WHERE`
+- Date functions for aligning records across tables
+
+Activities:
+- Join across multiple related tables
+- Identify records with no match and decide how to handle the gap
+- Aggregate results by relevant time periods and categories
+
+Mini-project: Build a summarized report combining data from at least two tables, grouped by time period and category.
+
+---
+
+### Week 3: Subqueries, CTEs & Data Cleaning
+
+**Goal:** Write modular queries and handle the inconsistencies that come with real-world data.
+
+Real datasets are rarely clean. Fields go missing, categories shift over time, and trends can be distorted by one-off events. This week is about handling that directly instead of ignoring it.
+
+Topics covered:
+- Subqueries in `SELECT`, `WHERE`, and `FROM`
+- Common Table Expressions (CTEs)
+- `NULL` handling, `COALESCE`, `CASE WHEN`
+- Detecting and flagging anomalous periods in a time series
+
+Mini-project: Identify a meaningful trend in the data, and separate genuine change from data gaps or one-off anomalies.
+
+---
+
+### Week 4: Power BI + SQL Mini-Project
+
+**Goal:** Connect the SQL work to a Power BI dashboard.
+
+This is a lighter week by design — the goal is to close the loop from query to visual, not to introduce heavy new SQL concepts.
+
+Activities:
+- Connect Power BI to a SQL source
+- Write one or two summary queries (totals by category, trend over time)
+- Build a dashboard with:
+  - A bar chart of top categories
+  - A line chart of the trend over time
+  - A slicer for a relevant dimension
+
+Deliverables:
+- Power BI file (`.pbix`)
+- Dashboard screenshot
+- Short written reflection on the build
+
+Estimated time: about eight hours.
+
+---
+
+### Week 5: dbt & Data Warehousing Basics
+
+**Goal:** Move from standalone queries to a modeled, testable data pipeline.
+
+By this point the queries have grown in number and complexity. This week restructures that work using dbt, and introduces the concepts behind cloud data warehousing.
+
+Topics covered:
+- What dbt is and why it's used in modern analytics
+- dbt concepts: sources, staging models, marts
+- DAGs and model lineage
+- Introduction to data warehouses and Snowflake
+
+Activities:
+- Build staging models for the underlying source tables
+- Build an intermediate model joining the staged sources
+- Add basic dbt tests (not null, uniqueness) and generate documentation
+- Review the resulting DAG
+
+---
+
+### Week 6: Final Capstone
+
+**Goal:** Apply everything learned to a single end-to-end deliverable.
+
+The capstone asks learners to produce what a data team would actually be asked for: a clear, well-modeled analysis with a defensible recommendation.
+
+Capstone build:
+- SQL to extract and clean the underlying data
+- dbt models to transform and document the pipeline
+- Power BI dashboard visualizing the key trends
+
+Deliverables:
+- Clean SQL scripts
+- dbt project with DAG screenshot
+- Power BI dashboard
+- Short written report: three data-backed observations and one recommendation based on the findings
+
+Wrap-up: GitHub portfolio setup, an overview of data analytics career tracks, and course completion review.
+
+---
+
+## Concepts Introduced Along the Way
+
+Beyond the core weekly topics, learners are gradually introduced to ideas used by real data teams:
+
+- **Materialized views** — caching expensive queries to speed up dashboards
+- **Dimensional modeling** — star and snowflake schema design
+- **Incremental models** — handling a growing multi-year dataset without reprocessing everything each time
+- **Data quality testing** — catching gaps and anomalies before they reach a dashboard
+
+## What You'll Have Built by the End
+
+A working, end-to-end pipeline: raw SQL queries, a modeled dbt project, and a Power BI dashboard, built progressively over six weeks.
