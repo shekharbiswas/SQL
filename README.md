@@ -1,59 +1,35 @@
 # SQL & Modern Data Tools
 
-At Dataskools, we build data skills on real data, not toy examples. This six-week course takes learners from SQL fundamentals to modern data warehousing, progressing week by week from core querying through joins, data cleaning, dashboarding, and modern data modeling with dbt and Snowflake.
+At Dataskools, we build data skills on real data, not toy examples. This six-week course takes learners from SQL fundamentals to modern data warehousing, progressing week by week from core querying through joins, data cleaning, advanced SQL, dashboarding, and modern data modeling with dbt and Snowflake.
 
-Week 1 is grounded in a real dataset — Capital Bikeshare trip data (2019–2026, seven years) joined with NOAA weather data — to teach the fundamentals on something with genuine scale and messiness. From Week 2 onward, the course moves through progressively more advanced SQL and data engineering concepts, applied to datasets appropriate to each topic.
+Week 1 is grounded in a real dataset — Capital Bikeshare trip data (2019–2026, seven years) joined with NOAA weather data — to teach the fundamentals on something with genuine scale and messiness. By the end of Week 1, learners go from raw `SELECT` statements all the way to joining trips with station reference data and summarizing results. From Week 2 onward, the course moves through progressively more advanced SQL and data engineering concepts, applied to datasets appropriate to each topic.
 
 ## Course Structure
 
-Six weeks, progressing from SQL basics through dbt and Snowflake, with Power BI as the visualization layer once the SQL foundation is solid.
+Six weeks, progressing from SQL basics through professional-level querying, dashboarding, and into modern data infrastructure — dbt for transformation, Snowflake for warehousing.
 
 ---
 
-### Week 1: SQL Foundations — Reading the Ride Data
+### Week 1: SQL Foundations — From First Query to First Join
 
-**Goal:** Learn core SQL syntax and get comfortable extracting information from raw trip records.
+**Goal:** Learn core SQL syntax, aggregate and summarize data, and combine tables — all against the same real dataset.
 
-The Capital Bikeshare trip table is the starting point: millions of rows spanning 2019 to 2026, one row per ride. Learners write their first queries directly against this table before anything is joined or modeled.
+The Capital Bikeshare trip table is the starting point: millions of rows spanning 2019 to 2026, one row per ride. Learners move from raw filtering to a full joined, aggregated summary table.
 
 Topics covered:
 - What SQL is, and how relational data is structured
-- `SELECT`, `FROM`, `WHERE`
-- `ORDER BY`, `LIMIT`, and logical operators
-- Filtering by text, numeric, and date fields
-- Working with timestamps across a multi-year date range
-
-Activities:
-- Explore the raw trips dataset in a SQL sandbox (DuckDB or SQLite, no setup required)
-- Filter rides by year, month, station, and rider type
-- Get a first look at the 2019–2026 date range and how ride volume is distributed across it
-
-Mini-task: Find the three busiest start stations and the year with the highest total ride count.
-
----
-
-### Week 2: Joins, Aggregates & Grouping
-
-**Goal:** Combine multiple related tables and summarize information across them.
-
-This week introduces multi-table datasets. Learners practice joining records across tables, handling mismatches, and summarizing results at different levels of granularity.
-
-Topics covered:
+- `SELECT`, `FROM`, `WHERE`, `ORDER BY`, `LIMIT`
+- Filtering by text, numeric, and date fields; working with timestamps across a multi-year range
 - `INNER JOIN`, `LEFT JOIN`, `RIGHT JOIN`
-- `GROUP BY` with `COUNT`, `SUM`, `AVG`
-- `HAVING` versus `WHERE`
-- Date functions for aligning records across tables
+- `GROUP BY` with `COUNT`, `SUM`, `AVG`, `MIN`, `MAX`
+- `HAVING` versus `WHERE`; aliases and rounding
+- Joining trips to a station reference table; `NULL` handling in joins
 
-Activities:
-- Join across multiple related tables
-- Identify records with no match and decide how to handle the gap
-- Aggregate results by relevant time periods and categories
-
-Mini-project: Build a summarized report combining data from at least two tables, grouped by time period and category.
+Mini-project: A joined, aggregated top-stations summary table — combining filtering, grouping, and joins into one reusable query.
 
 ---
 
-### Week 3: Subqueries, CTEs & Data Cleaning
+### Week 2: Subqueries, CTEs & Data Cleaning
 
 **Goal:** Write modular queries and handle the inconsistencies that come with real-world data.
 
@@ -69,19 +45,33 @@ Mini-project: Identify a meaningful trend in the data, and separate genuine chan
 
 ---
 
-### Week 4: Power BI + SQL Mini-Project
+### Week 3: Advanced SQL & Intro to dbt
 
-**Goal:** Connect the SQL work to a Power BI dashboard.
+**Goal:** Write SQL at a professional data-engineering level, and get a first look at how modern data teams organize that SQL into a real pipeline.
 
-This is a lighter week by design — the goal is to close the loop from query to visual, not to introduce heavy new SQL concepts.
+This week pushes past application-level querying into the techniques used in production analytics work, then introduces the tool that structures it.
 
-Activities:
-- Connect Power BI to a SQL source
-- Write one or two summary queries (totals by category, trend over time)
-- Build a dashboard with:
-  - A bar chart of top categories
-  - A line chart of the trend over time
-  - A slicer for a relevant dimension
+Topics covered:
+- Window functions: `ROW_NUMBER`, `RANK`, `DENSE_RANK`, `LAG`, `LEAD`
+- Running totals, moving averages, and period-over-period comparisons
+- Recursive CTEs
+- Query performance basics: reading `EXPLAIN` plans, indexing concepts
+- Pivoting and unpivoting data
+- What dbt is, why data teams use it, and how it differs from writing raw SQL
+
+Mini-project: Rewrite an earlier query using window functions to solve something a `GROUP BY` alone couldn't.
+
+---
+
+### Week 4: SQL + Power BI Project, and Intro to Snowflake
+
+**Goal:** Turn advanced SQL into a real dashboard, and get a first look at cloud data warehousing.
+
+Topics covered:
+- Connecting Power BI to a SQL source
+- Building dashboards from professional-level SQL output: bar and line charts, slicers
+- What a cloud data warehouse is and why teams use one
+- Snowflake's basic architecture: separation of storage and compute
 
 Deliverables:
 - Power BI file (`.pbix`)
@@ -92,41 +82,40 @@ Estimated time: about eight hours.
 
 ---
 
-### Week 5: dbt & Data Warehousing Basics
+### Week 5: dbt Deep Dive
 
-**Goal:** Move from standalone queries to a modeled, testable data pipeline.
+**Goal:** Move from standalone queries to a modeled, testable transformation pipeline.
 
-By this point the queries have grown in number and complexity. This week restructures that work using dbt, and introduces the concepts behind cloud data warehousing.
+By this point the SQL has grown in number and complexity. This week restructures that work properly using dbt.
 
 Topics covered:
-- What dbt is and why it's used in modern analytics
-- dbt concepts: sources, staging models, marts
+- dbt project structure: sources, staging models, intermediate models, marts
 - DAGs and model lineage
-- Introduction to data warehouses and Snowflake
+- dbt tests: not null, uniqueness, relationships, accepted values
+- Documentation generation
+- Incremental models for a growing multi-year dataset
 
 Activities:
 - Build staging models for the underlying source tables
 - Build an intermediate model joining the staged sources
-- Add basic dbt tests (not null, uniqueness) and generate documentation
+- Add tests and generate documentation
 - Review the resulting DAG
 
 ---
 
-### Week 6: Final Capstone
+### Week 6: Snowflake Deep Dive
 
-**Goal:** Apply everything learned to a single end-to-end deliverable.
+**Goal:** Move the pipeline into a real cloud data warehouse.
 
-The capstone asks learners to produce what a data team would actually be asked for: a clear, well-modeled analysis with a defensible recommendation.
-
-Capstone build:
-- SQL to extract and clean the underlying data
-- dbt models to transform and document the pipeline
-- Power BI dashboard visualizing the key trends
+Topics covered:
+- Snowflake architecture in depth: virtual warehouses, storage/compute separation, scaling
+- Loading data into Snowflake
+- Roles, permissions, and access basics
+- Query performance and cost/credit management concepts
+- Connecting dbt to Snowflake and running the pipeline end to end
 
 Deliverables:
-- Clean SQL scripts
-- dbt project with DAG screenshot
-- Power BI dashboard
+- SQL scripts and dbt project connected to and running on Snowflake
 - Short written report: three data-backed observations and one recommendation based on the findings
 
 Wrap-up: GitHub portfolio setup, an overview of data analytics career tracks, and course completion review.
@@ -144,4 +133,4 @@ Beyond the core weekly topics, learners are gradually introduced to ideas used b
 
 ## What You'll Have Built by the End
 
-A working, end-to-end pipeline: raw SQL queries, a modeled dbt project, and a Power BI dashboard, built progressively over six weeks.
+A working, end-to-end pipeline: professional-level SQL, a Power BI dashboard, a modeled dbt project, and that pipeline running live on Snowflake — built progressively over six weeks.
