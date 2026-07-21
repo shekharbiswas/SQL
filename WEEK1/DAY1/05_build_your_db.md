@@ -47,27 +47,33 @@ The newer files (roughly mid-2020 onward) typically look like this:
 
 Take a moment to actually open one file from 2019 and one file from 2022 or later side by side before moving on. Seeing the mismatch firsthand makes the next step — standardizing both formats into one table — a lot more intuitive than just being told about it.
 
-## Step 2: Install DuckDB
+## Step 2: Install DuckDB (Command-Line Version)
 
-If you don't already have it:
+**Important:** `pip install duckdb` installs the *Python library*, not the standalone command-line tool. If you run `pip install duckdb` and then try `duckdb bikeshare.db` in your terminal, you'll get `'duckdb' is not recognized as an internal or external command` — the CLI binary is a separate download.
+
+To get the actual command-line tool on Windows:
+
+1. Go to [duckdb.org/docs/installation](https://duckdb.org/docs/installation/)
+2. Select **CLI**, **Windows**, **x86_64**
+3. Download the zip — it contains a single file, `duckdb.exe`
+4. Extract `duckdb.exe` into the folder where your CSV files (and your future `.db` file) will live, e.g. `C:\Users\shekh\Downloads\`
+
+From then on, run it directly from that folder:
 
 ```bash
-pip install duckdb
+cd C:\Users\shekh\Downloads
+duckdb.exe bikeshare_2019_2026.db
 ```
 
-Or, for the command-line version, follow the installer at [duckdb.org](https://duckdb.org).
+This drops you into the DuckDB shell, ready for the SQL steps below.
+
+*(Optional: to run `duckdb` from any folder without `cd`-ing in first, add the folder containing `duckdb.exe` to your Windows PATH via System Properties → Environment Variables → Path → New.)*
 
 ## Step 3: Standardize Each Schema Era Separately
 
 Because the older and newer files use genuinely different column names — not just a reordering — a single `read_csv_auto('data/*.csv')` call would either fail outright or, worse, silently produce a table full of mismatched or empty columns. So instead of combining everything in one step, we standardize each era to a common set of column names first, and only then bring them together.
 
-Start DuckDB, pointed at the database file we want to create:
-
-```bash
-duckdb bikeshare_2019_2026.db
-```
-
-First, load the older files (2019 through early 2020) into a staging table, renaming columns to a common naming scheme as we go:
+From inside the DuckDB shell opened in Step 2, first load the older files (2019 through early 2020) into a staging table, renaming columns to a common naming scheme as we go:
 
 ```sql
 CREATE TABLE trips_legacy AS
@@ -137,17 +143,25 @@ SELECT DISTINCT rider_type FROM trips;
 
 The row count should be in the millions, and the date range should span from somewhere in 2019 to somewhere in 2026. The `rider_type` check is the important one this time: if it returns more than two distinct values (for example, `Member`, `Casual`, `member`, and `casual` all showing up separately), that's the capitalization mismatch from Step 3 surfacing exactly where expected — worth cleaning up now, with a simple `LOWER(rider_type)`, rather than discovering it mid-query later in the week.
 
+When you're done, exit the DuckDB shell:
+
+```sql
+.quit
+```
+
 ## Step 6: Connect Beekeeper Studio to the Database
 
 With `bikeshare_2019_2026.db` created, go back to Beekeeper Studio:
 
 1. Click "New Connection"
-2. Select DuckDB
+2. In **Connection Type**, select **DuckDB** (not SQLite — DuckDB files aren't SQLite files, and Beekeeper will reject them with a "file is not a database" error if the wrong type is selected)
 3. Click "Choose a Database File"
 4. Select `bikeshare_2019_2026.db`
 5. Click Connect
 
 The `trips` table should now appear in the left sidebar, ready to query.
+
+*Note: DuckDB support depends on your Beekeeper Studio version — if "DuckDB" doesn't appear in the Connection Type dropdown, update Beekeeper Studio to a version that includes it.*
 
 ## Why This Step Matters
 
