@@ -8,3 +8,4 @@
 
 - [link](https://us06web.zoom.us/rec/share/8kPHplGLms6F7F4Ykyo1Mrv-09Ua2kt_gHov4G6qRV2naelLHqSX54YvKZO07xlL.VHSQpEBOz3jS05TX), Passcode: 2?%C$LLe
 - [link](https://us06web.zoom.us/rec/share/Dq0sw7QdAehkUpkA3dVZywWxLVhKhwa0jEReH2IacfoH23WALNnkmeumabj1C7o.80pFpUGsc0TBx4WB), Passcode: VfR%qPy8
+- [link](https://us06web.zoom.us/rec/share/YA7lcUkhl1_BOC-Hv7F5JNRwYIisgc6_gZcooaUxHx0jEe0WR6cOI09-gBZ0pwhW.Sq33kPe4SUGjW8cu), Passcode: .RLT$?6P
