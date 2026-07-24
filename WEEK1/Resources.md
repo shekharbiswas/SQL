@@ -2,6 +2,7 @@
 
 1. [Intro to SQL](https://docs.google.com/presentation/d/e/2PACX-1vQSp1lFuIKQetyF8t1dm-qA3aw7SkVzVDjyPjPsKrW77Lyxk32bQlVt_lLAHAG-4QyX9fZ8gr81x-MX/pub?start=false&loop=false&delayms=3000)
 2. [SQL from Scratch](https://docs.google.com/presentation/d/e/2PACX-1vSwWO1oShi2Ve_4KH3QdJgevKy8n_6AXiOlKX4tZ4oBSdwAX2ZQhulXrJ8mgTRgQzmW22BlmssB3d5c/pub?start=false&loop=false&delayms=3000)
+3. [SQL_Fundamentals](https://docs.google.com/presentation/d/e/2PACX-1vTa8Bj7spp8VfI6LzVvqGjsRgbYewRkRGZ0BzMNX72P7dvaUaSbo7VjT3jngdvJ8TyO3nSgKRP_F8VX/pub?start=false&loop=false&delayms=3000)
 
 
 ### Recs
