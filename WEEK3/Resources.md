@@ -1,6 +1,7 @@
 ## Videos
 
 1. [link](https://us06web.zoom.us/rec/share/nS--ba091UTPeArQ6_eun_XXQz_YQp0bv7H4JirYAe3A4jTiFQo1nVtfEvD9ocgH.uOXzjd5fNs9IgDZZ), Passcode: s?SFx&J2
+2. [link](https://us06web.zoom.us/rec/share/tlxaq3MfgCWToYNZFnOtsTBAEiETW9qej7Q1XyOXIlf39OIGBFXiAaDJ4oDnjaWR.IvBsAeu63Gm7698T), Passcode: %8n0@r83
 
 ## Slides
 
