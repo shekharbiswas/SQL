@@ -12,5 +12,5 @@
 
 ## dbt
 
-[link](https://learn.getdbt.com/courses/dbt-fundamentals)
-PW: pfBeaF9QnDCmB8g
+- [link](https://learn.getdbt.com/courses/dbt-fundamentals)
+- PW: pfBeaF9QnDCmB8g
